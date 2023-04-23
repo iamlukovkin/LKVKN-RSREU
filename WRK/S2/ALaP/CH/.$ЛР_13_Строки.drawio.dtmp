@@ -1,0 +1,116 @@
+<mxfile host="Electron" modified="2023-04-20T20:04:26.522Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="x91fnEWl7WE3FKfI7rlN" version="21.2.1" type="device">
+  <diagram name="Страница 1" id="LGE76kqkG0PCHXJgvWlx">
+    <mxGraphModel dx="545" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zVZJgDuVxlE2_nprvElC-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVZJgDuVxlE2_nprvElC-59" target="zVZJgDuVxlE2_nprvElC-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-59" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="480" y="50" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVZJgDuVxlE2_nprvElC-61" target="zVZJgDuVxlE2_nprvElC-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-61" value="Открытие файла &lt;i&gt;Data.txt &lt;/i&gt;с разрешением на чтение" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-62" value="words = data.split(&#39; &#39;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVZJgDuVxlE2_nprvElC-63" target="zVZJgDuVxlE2_nprvElC-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-63" value="Создание массивов &lt;i&gt;first_letters и last_letters &lt;/i&gt;с содержанием внутри первых и последних букв слов массива &lt;i&gt;words&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVZJgDuVxlE2_nprvElC-64" target="zVZJgDuVxlE2_nprvElC-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-64" value="freg_first_letters = {}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVZJgDuVxlE2_nprvElC-65" target="zVZJgDuVxlE2_nprvElC-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVZJgDuVxlE2_nprvElC-65" target="zVZJgDuVxlE2_nprvElC-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="641.1111111111111" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="550" />
+              <mxPoint x="840" y="740" />
+              <mxPoint x="641" y="740" />
+              <mxPoint x="641" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-65" value="Цикл &lt;i&gt;letter&lt;/i&gt; для элементов массива &lt;i&gt;first_letters&lt;/i&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zVZJgDuVxlE2_nprvElC-66" target="zVZJgDuVxlE2_nprvElC-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="720" />
+              <mxPoint x="440" y="720" />
+              <mxPoint x="440" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-66" value="&lt;br&gt;&lt;span style=&quot;font-size: 12px; line-height: 106%;&quot; lang=&quot;EN-US&quot;&gt;freq_first_letters[letter]&lt;br&gt;= freq_first_letters.get(letter, 0) + 1&lt;/span&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="620" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVZJgDuVxlE2_nprvElC-70" target="zVZJgDuVxlE2_nprvElC-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-70" value="freg_last_letters = {}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="760" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zVZJgDuVxlE2_nprvElC-73" target="zVZJgDuVxlE2_nprvElC-75" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zVZJgDuVxlE2_nprvElC-73" parent="1" target="zVZJgDuVxlE2_nprvElC-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="641.1111111111111" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="890" />
+              <mxPoint x="840" y="1100" />
+              <mxPoint x="641" y="1100" />
+              <mxPoint x="641" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-73" value="Цикл &lt;i&gt;letter&lt;/i&gt; для элементов массива last&lt;i&gt;_letters&lt;/i&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="860" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="zVZJgDuVxlE2_nprvElC-75" target="zVZJgDuVxlE2_nprvElC-73" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="1060" />
+              <mxPoint x="440" y="1060" />
+              <mxPoint x="440" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-75" value="&lt;br&gt;&lt;span style=&quot;font-size: 12px; line-height: 106%;&quot; lang=&quot;EN-US&quot;&gt;freq_last_letters[letter]&lt;br&gt;= freq_last_letters.get(letter, 0) + 1&lt;/span&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="960" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVZJgDuVxlE2_nprvElC-81" target="zVZJgDuVxlE2_nprvElC-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-81" value="Счетчик наиболее встречающихся букв в начале и конце слова" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1140" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-82" value="Выбор подходящих условию слов в &lt;i&gt;matching_words&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1240" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-84" value="Вывод &lt;i&gt;most_freq_start, most_freq_end, matching_words&lt;/i&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1340" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVZJgDuVxlE2_nprvElC-85" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1440" width="320" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

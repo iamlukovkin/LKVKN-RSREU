@@ -1,0 +1,32 @@
+Программа: A[ARAM] * B[ARAM] = C -> C[ARAM]
+
+00 - Переход к началу программы
+...
+Подпрограмма умножения двух чисел с анализом младшего бита.
+02 BX <> 0 if not Z then goto M2
+03 Запись результата в SP; Переход к концу подпр-мы (0A)
+04 M2: BP = BX
+05 BP = BP & 0001h
+06 BP = 1 if not Z then goto M3
+07 M3: SP = SP + AX
+08 BX = BX shr 1
+09 AX = AX shl 1
+0A SP = 0; Б/у возврат из подпрограммы
+...
+0D RACT = 7h
+0E CX = AADDR
+0F DX = BADDR
+10 DI = CADDR
+Начало цикла RACT
+11 ARAM = CX
+12 AX = [ARAM]
+13 ARAM = DX
+14 BX = [ARAM]
+15 ARAM = DI
+16 Вызов подпрограммы (03)
+17 CX = CX + 2
+18 DX = DX + 2
+19 DI = DI + 2
+1A if RACT <> 0 then RACT:=RACT-1 goto M(11)
+1B STOP
+
